@@ -1,0 +1,152 @@
+@media (max-width: 1023px) {
+	.nav-bar span {
+		padding-left: 20px;
+	}
+
+	.section-two h2 {
+		margin-top: -10px;
+	}
+
+	.article-items article {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	footer h4 {
+		margin-top: 30px;
+	}
+
+	.section-five article {
+		display: inline-block;
+		width: 50%;
+		margin-left: -4px;
+	}
+
+	.section-five button {
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 767px) {
+
+			/*HEADER*/
+
+	.header {
+	text-align: center;
+	min-height: 350px;
+	}
+
+	.nav-list {
+		position: absolute;
+		padding-left: 0;
+		top: 100px;
+		width: 100%;
+		max-height:0px;
+	    overflow:hidden;
+	    -webkit-transition:max-height 0.4s linear;
+	    -moz-transition:max-height 0.4s linear;
+	    transition:max-height 0.4s linear;
+	}
+
+	.nav-list li {
+		display: block;
+		margin-top: 0;
+		margin-bottom: 0;
+		background-color: #991199;
+		margin: 0 auto;
+		color: #ffcc00;
+		border:1px solid yellow;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.nav-bar ul li:hover {
+		background-color: #991199;
+		margin: 0 auto;
+		color: #ffcc00;
+		border:1px solid yellow;
+		border-radius: 0;
+	}
+
+	.nav-bar span {
+		margin: 20 auto 0 auto;
+	}
+
+	.menu {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50px;
+		height: 50px;
+		font-size: 32px;
+		z-index: 999;
+		color: black;
+		margin-top: -90px;
+	}
+
+	.bg-left,
+	.bg-right {
+		display: none;
+	}
+
+	.bg-left-mobile{
+		margin-top: 0px;
+		width: 100%;
+		position: relative;
+		display: block;
+		background: url(../images/left.png) no-repeat center;
+		background-size: cover;
+	}
+
+	.bg-right-mobile{
+		margin-top: 0px;
+		width: 100%;
+		position: relative;
+		display: block;
+		background: url(../images/right.png) no-repeat center;
+		background-size: cover;
+	}
+
+	.bg-left-mobile h2,
+	.bg-right-mobile h2 {
+		margin-top: 15px;
+	}
+
+	.bg-left-mobile button,
+	.bg-right-mobile button {
+		margin-bottom: 10px;
+	}
+
+	/*SETION THREE*/
+
+	.article-items {
+		display: block;
+		width: 100%;
+		margin: 0 auto 10px auto;
+	}
+
+	.article-items article {
+		display: block;
+		width: 100%;
+	}
+
+	/*SECTION FOUR*/
+
+	.section-four {
+		display: none;
+	}
+
+	.section-five {
+		margin-top: 10px;
+	}
+
+	.section-five article {
+		display: block;
+		width: 100%;
+		margin: 5px auto;
+	}
+
+	.section-five button {
+		margin-bottom: 5px;
+	}
+}
